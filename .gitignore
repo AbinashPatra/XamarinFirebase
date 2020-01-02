@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/XamarinFireBase/bin/Debug/netstandard2.0
+/XamarinFireBase/obj
+/XamarinFireBase.Android/bin/Debug
+/XamarinFireBase.Android/obj
+/XamarinFireBase.Android/XamarinFirebase-Dev/google-services.json
+/XamarinFireBase.Android/XamarinFirebase-Prod/google-services.json
+/XamarinFireBase.Android/google-services.json
