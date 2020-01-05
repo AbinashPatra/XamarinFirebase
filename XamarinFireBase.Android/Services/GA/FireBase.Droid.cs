@@ -42,6 +42,8 @@ namespace XamarinFireBase.Droid.Services.GA
             {
                 bundle.PutString(param.Key, param.Value);
             }
+          //  bundle.PutString("ec", "AppLoad");
+            //bundle.PutString("ea", "ButtonClick");
 
             firebaseAnalytics.LogEvent(eventId, bundle);
         }

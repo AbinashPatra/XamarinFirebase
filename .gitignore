@@ -10,3 +10,6 @@
 /XamarinFireBase.Android/XamarinFirebase-Dev/google-services.json
 /XamarinFireBase.Android/XamarinFirebase-Prod/google-services.json
 /XamarinFireBase.Android/google-services.json
+/XamarinFireBase.iOS/GoogleService-Info.plist
+/XamarinFireBase.iOS/bin
+/XamarinFireBase.iOS/obj
