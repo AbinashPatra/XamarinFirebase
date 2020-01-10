@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ap3\\source\\repos\\AbinashPatra\\XamarinFirebase\\XamarinFireBase.iOS\\XamarinFireBase.iOS.csproj": {}
+    "/Users/ap3/Documents/Abi-Repos/XamarinFirebase/XamarinFireBase.iOS/XamarinFireBase.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ap3\\source\\repos\\AbinashPatra\\XamarinFirebase\\XamarinFireBase.iOS\\XamarinFireBase.iOS.csproj": {
+    "/Users/ap3/Documents/Abi-Repos/XamarinFirebase/XamarinFireBase.iOS/XamarinFireBase.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ap3\\source\\repos\\AbinashPatra\\XamarinFirebase\\XamarinFireBase.iOS\\XamarinFireBase.iOS.csproj",
+        "projectUniqueName": "/Users/ap3/Documents/Abi-Repos/XamarinFirebase/XamarinFireBase.iOS/XamarinFireBase.iOS.csproj",
         "projectName": "XamarinFireBase.iOS",
-        "projectPath": "C:\\Users\\ap3\\source\\repos\\AbinashPatra\\XamarinFirebase\\XamarinFireBase.iOS\\XamarinFireBase.iOS.csproj",
-        "packagesPath": "C:\\Users\\ap3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ap3\\source\\repos\\AbinashPatra\\XamarinFirebase\\XamarinFireBase.iOS\\obj\\",
+        "projectPath": "/Users/ap3/Documents/Abi-Repos/XamarinFirebase/XamarinFireBase.iOS/XamarinFireBase.iOS.csproj",
+        "packagesPath": "/Users/ap3/.nuget/packages/",
+        "outputPath": "/Users/ap3/Documents/Abi-Repos/XamarinFirebase/XamarinFireBase.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ap3\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/ap3/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\ap3\\source\\repos\\AbinashPatra\\XamarinFirebase\\XamarinFireBase\\XamarinFireBase.csproj": {
-                "projectPath": "C:\\Users\\ap3\\source\\repos\\AbinashPatra\\XamarinFirebase\\XamarinFireBase\\XamarinFireBase.csproj"
+              "/Users/ap3/Documents/Abi-Repos/XamarinFirebase/XamarinFireBase/XamarinFireBase.csproj": {
+                "projectPath": "/Users/ap3/Documents/Abi-Repos/XamarinFirebase/XamarinFireBase/XamarinFireBase.csproj"
               }
             }
           }
@@ -42,13 +36,29 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Xamarin.Build.Download": {
+              "target": "Package",
+              "version": "[0.8.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.3.1, )"
             },
+            "Xamarin.Firebase.iOS.Analytics": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Xamarin.Firebase.iOS.Core": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Xamarin.Firebase.iOS.InstanceID": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.3.0.908675, )"
+              "version": "[4.4.0.991265, )"
             }
           }
         }
@@ -65,28 +75,25 @@
         }
       }
     },
-    "C:\\Users\\ap3\\source\\repos\\AbinashPatra\\XamarinFirebase\\XamarinFireBase\\XamarinFireBase.csproj": {
+    "/Users/ap3/Documents/Abi-Repos/XamarinFirebase/XamarinFireBase/XamarinFireBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ap3\\source\\repos\\AbinashPatra\\XamarinFirebase\\XamarinFireBase\\XamarinFireBase.csproj",
+        "projectUniqueName": "/Users/ap3/Documents/Abi-Repos/XamarinFirebase/XamarinFireBase/XamarinFireBase.csproj",
         "projectName": "XamarinFireBase",
-        "projectPath": "C:\\Users\\ap3\\source\\repos\\AbinashPatra\\XamarinFirebase\\XamarinFireBase\\XamarinFireBase.csproj",
-        "packagesPath": "C:\\Users\\ap3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ap3\\source\\repos\\AbinashPatra\\XamarinFirebase\\XamarinFireBase\\obj\\",
+        "projectPath": "/Users/ap3/Documents/Abi-Repos/XamarinFirebase/XamarinFireBase/XamarinFireBase.csproj",
+        "packagesPath": "/Users/ap3/.nuget/packages/",
+        "outputPath": "/Users/ap3/Documents/Abi-Repos/XamarinFirebase/XamarinFireBase/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ap3\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/ap3/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -109,6 +116,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Prism.Forms": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.3.1, )"
@@ -127,8 +138,7 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }
